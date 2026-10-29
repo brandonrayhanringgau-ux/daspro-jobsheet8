@@ -5,8 +5,8 @@ public class Star06 {
         System.out.print("Masukan nilai n = ");
         int n = sc.nextInt();
 
-        for (int i = 1; i <= n; i++) {
-            System.out.print("*");
+        for (int i = 1; i <= n; i+=2) {
+            System.out.print(i+" ");
 
 
     }
